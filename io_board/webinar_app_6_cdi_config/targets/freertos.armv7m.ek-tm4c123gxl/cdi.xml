@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<cdi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openlcb.org/schema/cdi/1/1/cdi.xsd">
+<identification>
+<manufacturer>OpenMRN</manufacturer>
+<model>Test IO Board - Tiva Launchpad 123</model>
+<hardwareVersion>ek-tm4c123gxl</hardwareVersion>
+<softwareVersion>1.01</softwareVersion>
+</identification>
+<acdi/>
+<segment space='251' origin='1'>
+<string size='63'>
+<name>User name</name>
+<description>This name will appear in network browsers for the current node.</description>
+</string>
+<string size='64'>
+<name>User description</name>
+<description>This description will appear in network browsers for the current node.</description>
+</string>
+</segment>
+</cdi>
